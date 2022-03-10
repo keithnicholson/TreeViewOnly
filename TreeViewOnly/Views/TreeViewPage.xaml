@@ -324,7 +324,7 @@
             <winui:TreeView
                 x:Name="treeView"
                 Grid.Row="1"
-                SelectionMode="Single"
+                SelectionMode="Multiple"
                 CanReorderItems="False"
                 ItemsSource="{x:Bind ViewModel.SampleItems}"
                 ItemTemplateSelector="{StaticResource TreeViewTemplateSelector}">

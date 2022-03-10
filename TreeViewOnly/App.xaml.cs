@@ -42,6 +42,7 @@ namespace TreeViewOnly
         {
             // TODO WTS: Please log and handle the exception as appropriate to your scenario
             // For more info see https://docs.microsoft.com/uwp/api/windows.ui.xaml.application.unhandledexception
+            Console.WriteLine(e.Message);
         }
 
         private ActivationService CreateActivationService()
